@@ -234,17 +234,15 @@ div.cards {
   width: 100%;
 }
 
-div.cards .card1 {
+div.cards .card1, div.cards .card2, div.cards .card3, div.cards .card4, div.cards .card5, div.cards .card6, div.cards .card7, div.cards .card8 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 220px;
-          flex: 1 1 220px;
-  margin-left: 20px;
-  margin-bottom: 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 220px;
+          flex: 0 0 220px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -253,14 +251,15 @@ div.cards .card1 {
   -webkit-box-shadow: 0 2px 2px 0 whitesmoke;
           box-shadow: 0 2px 2px 0 whitesmoke;
   height: 440px;
+  margin-bottom: 20px;
 }
 
-div.cards .card1 .view a {
+div.cards .card1 .view a, div.cards .card2 .view a, div.cards .card3 .view a, div.cards .card4 .view a, div.cards .card5 .view a, div.cards .card6 .view a, div.cards .card7 .view a, div.cards .card8 .view a {
   padding-bottom: 10px;
   padding-left: 20px;
 }
 
-div.cards .card1 .agri-logo {
+div.cards .card1 .agri-logo, div.cards .card2 .agri-logo, div.cards .card3 .agri-logo, div.cards .card4 .agri-logo, div.cards .card5 .agri-logo, div.cards .card6 .agri-logo, div.cards .card7 .agri-logo, div.cards .card8 .agri-logo {
   padding-left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,19 +278,21 @@ div.cards .card1 .agri-logo {
   height: 30px;
 }
 
-div.cards .card1 .agri-logo img {
+div.cards .card1 .agri-logo img, div.cards .card2 .agri-logo img, div.cards .card3 .agri-logo img, div.cards .card4 .agri-logo img, div.cards .card5 .agri-logo img, div.cards .card6 .agri-logo img, div.cards .card7 .agri-logo img, div.cards .card8 .agri-logo img {
   padding: 10px;
 }
 
-div.cards .card1 .agri-logo h3 {
+div.cards .card1 .agri-logo h3, div.cards .card2 .agri-logo h3, div.cards .card3 .agri-logo h3, div.cards .card4 .agri-logo h3, div.cards .card5 .agri-logo h3, div.cards .card6 .agri-logo h3, div.cards .card7 .agri-logo h3, div.cards .card8 .agri-logo h3 {
   padding-top: 17px;
   font-weight: bold;
 }
 
-div.cards .card1 .card1-content {
+div.cards .card1 .card1-content, div.cards .card2 .card1-content, div.cards .card3 .card1-content, div.cards .card4 .card1-content, div.cards .card5 .card1-content, div.cards .card6 .card1-content, div.cards .card7 .card1-content, div.cards .card8 .card1-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0;
+  padding: 0;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
@@ -301,260 +302,22 @@ div.cards .card1 .card1-content {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
-  height: 350px;
+  width: 300px;
+  height: 400px;
 }
 
-div.cards .card1 .card1-content .content1 figure, div.cards .card1 .card1-content .content2 figure, div.cards .card1 .card1-content .content3 figure, div.cards .card1 .card1-content .content4 figure {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 100px;
-          flex: 1 1 100px;
+div.cards .card1 .card1-content .content1, div.cards .card1 .card1-content .content2, div.cards .card1 .card1-content .content3, div.cards .card1 .card1-content .content4, div.cards .card2 .card1-content .content1, div.cards .card2 .card1-content .content2, div.cards .card2 .card1-content .content3, div.cards .card2 .card1-content .content4, div.cards .card3 .card1-content .content1, div.cards .card3 .card1-content .content2, div.cards .card3 .card1-content .content3, div.cards .card3 .card1-content .content4, div.cards .card4 .card1-content .content1, div.cards .card4 .card1-content .content2, div.cards .card4 .card1-content .content3, div.cards .card4 .card1-content .content4, div.cards .card5 .card1-content .content1, div.cards .card5 .card1-content .content2, div.cards .card5 .card1-content .content3, div.cards .card5 .card1-content .content4, div.cards .card6 .card1-content .content1, div.cards .card6 .card1-content .content2, div.cards .card6 .card1-content .content3, div.cards .card6 .card1-content .content4, div.cards .card7 .card1-content .content1, div.cards .card7 .card1-content .content2, div.cards .card7 .card1-content .content3, div.cards .card7 .card1-content .content4, div.cards .card8 .card1-content .content1, div.cards .card8 .card1-content .content2, div.cards .card8 .card1-content .content3, div.cards .card8 .card1-content .content4 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px;
 }
 
-div.cards .card1 .card1-content figcaption {
-  size: 4px;
+div.cards .card1 .card1-content .content1 img, div.cards .card1 .card1-content .content2 img, div.cards .card1 .card1-content .content3 img, div.cards .card1 .card1-content .content4 img, div.cards .card2 .card1-content .content1 img, div.cards .card2 .card1-content .content2 img, div.cards .card2 .card1-content .content3 img, div.cards .card2 .card1-content .content4 img, div.cards .card3 .card1-content .content1 img, div.cards .card3 .card1-content .content2 img, div.cards .card3 .card1-content .content3 img, div.cards .card3 .card1-content .content4 img, div.cards .card4 .card1-content .content1 img, div.cards .card4 .card1-content .content2 img, div.cards .card4 .card1-content .content3 img, div.cards .card4 .card1-content .content4 img, div.cards .card5 .card1-content .content1 img, div.cards .card5 .card1-content .content2 img, div.cards .card5 .card1-content .content3 img, div.cards .card5 .card1-content .content4 img, div.cards .card6 .card1-content .content1 img, div.cards .card6 .card1-content .content2 img, div.cards .card6 .card1-content .content3 img, div.cards .card6 .card1-content .content4 img, div.cards .card7 .card1-content .content1 img, div.cards .card7 .card1-content .content2 img, div.cards .card7 .card1-content .content3 img, div.cards .card7 .card1-content .content4 img, div.cards .card8 .card1-content .content1 img, div.cards .card8 .card1-content .content2 img, div.cards .card8 .card1-content .content3 img, div.cards .card8 .card1-content .content4 img {
+  width: 130px;
+  height: 130px;
 }
 
-div.cards .card2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 250px;
-          flex: 1 1 250px;
-  margin-left: 20px;
-  margin-bottom: 15px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: white;
-  -webkit-box-shadow: 0 2px 2px 0 whitesmoke;
-          box-shadow: 0 2px 2px 0 whitesmoke;
-  height: 440px;
-}
-
-div.cards .card2 .view a {
-  padding-bottom: 10px;
-  padding-left: 20px;
-}
-
-div.cards .card2 .agri-logo {
-  padding-left: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 100%;
-  height: 30px;
-}
-
-div.cards .card2 .agri-logo img {
-  padding: 10px;
-}
-
-div.cards .card2 .agri-logo h3 {
-  padding-top: 17px;
-  font-weight: bold;
-}
-
-div.cards .card2 .card1-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 350px;
-}
-
-div.cards .card2 .card1-content .content1 figure, div.cards .card2 .card1-content .content2 figure, div.cards .card2 .card1-content .content3 figure, div.cards .card2 .card1-content .content4 figure {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 100px;
-          flex: 1 1 100px;
-}
-
-div.cards .card2 .card1-content figcaption {
-  size: 4px;
-}
-
-div.cards .card3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 20px;
-  margin-bottom: 15px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 250px;
-          flex: 1 1 250px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: white;
-  -webkit-box-shadow: 0 2px 2px 0 whitesmoke;
-          box-shadow: 0 2px 2px 0 whitesmoke;
-  height: 440px;
-}
-
-div.cards .card3 .view a {
-  padding-bottom: 10px;
-  padding-left: 20px;
-}
-
-div.cards .card3 .agri-logo {
-  padding-left: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 100%;
-  height: 30px;
-}
-
-div.cards .card3 .agri-logo img {
-  padding: 10px;
-}
-
-div.cards .card3 .agri-logo h3 {
-  padding-top: 17px;
-  font-weight: bold;
-}
-
-div.cards .card3 .card1-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 350px;
-}
-
-div.cards .card3 .card1-content .content1 figure, div.cards .card3 .card1-content .content2 figure, div.cards .card3 .card1-content .content3 figure, div.cards .card3 .card1-content .content4 figure {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 100px;
-          flex: 1 1 100px;
-}
-
-div.cards .card3 .card1-content figcaption {
-  size: 4px;
-}
-
-div.cards .card4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 250px;
-          flex: 1 1 250px;
-  margin-left: 20px;
-  margin-bottom: 15px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: white;
-  -webkit-box-shadow: 0 2px 2px 0 whitesmoke;
-          box-shadow: 0 2px 2px 0 whitesmoke;
-  height: 440px;
-}
-
-div.cards .card4 .view a {
-  padding-bottom: 10px;
-  padding-left: 20px;
-}
-
-div.cards .card4 .agri-logo {
-  padding-left: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 100%;
-  height: 30px;
-}
-
-div.cards .card4 .agri-logo img {
-  padding: 10px;
-}
-
-div.cards .card4 .agri-logo h3 {
-  padding-top: 17px;
-  font-weight: bold;
-}
-
-div.cards .card4 .card1-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 350px;
-}
-
-div.cards .card4 .card1-content .content1 figure, div.cards .card4 .card1-content .content2 figure, div.cards .card4 .card1-content .content3 figure, div.cards .card4 .card1-content .content4 figure {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 100px;
-          flex: 1 1 100px;
-}
-
-div.cards .card4 .card1-content figcaption {
+div.cards .card1 .card1-content .content1 figcaption, div.cards .card1 .card1-content .content2 figcaption, div.cards .card1 .card1-content .content3 figcaption, div.cards .card1 .card1-content .content4 figcaption, div.cards .card2 .card1-content .content1 figcaption, div.cards .card2 .card1-content .content2 figcaption, div.cards .card2 .card1-content .content3 figcaption, div.cards .card2 .card1-content .content4 figcaption, div.cards .card3 .card1-content .content1 figcaption, div.cards .card3 .card1-content .content2 figcaption, div.cards .card3 .card1-content .content3 figcaption, div.cards .card3 .card1-content .content4 figcaption, div.cards .card4 .card1-content .content1 figcaption, div.cards .card4 .card1-content .content2 figcaption, div.cards .card4 .card1-content .content3 figcaption, div.cards .card4 .card1-content .content4 figcaption, div.cards .card5 .card1-content .content1 figcaption, div.cards .card5 .card1-content .content2 figcaption, div.cards .card5 .card1-content .content3 figcaption, div.cards .card5 .card1-content .content4 figcaption, div.cards .card6 .card1-content .content1 figcaption, div.cards .card6 .card1-content .content2 figcaption, div.cards .card6 .card1-content .content3 figcaption, div.cards .card6 .card1-content .content4 figcaption, div.cards .card7 .card1-content .content1 figcaption, div.cards .card7 .card1-content .content2 figcaption, div.cards .card7 .card1-content .content3 figcaption, div.cards .card7 .card1-content .content4 figcaption, div.cards .card8 .card1-content .content1 figcaption, div.cards .card8 .card1-content .content2 figcaption, div.cards .card8 .card1-content .content3 figcaption, div.cards .card8 .card1-content .content4 figcaption {
   size: 4px;
 }
 
