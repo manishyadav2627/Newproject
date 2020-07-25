@@ -234,7 +234,7 @@ div.cards {
   width: 100%;
 }
 
-div.cards .card1, div.cards .card2, div.cards .card3, div.cards .card4, div.cards .card5, div.cards .card6, div.cards .card7, div.cards .card8 {
+div.cards .card1, div.cards .card2, div.cards .card3, div.cards .card4, div.cards .card5, div.cards .card6, div.cards .card7 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,12 +254,12 @@ div.cards .card1, div.cards .card2, div.cards .card3, div.cards .card4, div.card
   margin-bottom: 20px;
 }
 
-div.cards .card1 .view a, div.cards .card2 .view a, div.cards .card3 .view a, div.cards .card4 .view a, div.cards .card5 .view a, div.cards .card6 .view a, div.cards .card7 .view a, div.cards .card8 .view a {
+div.cards .card1 .view a, div.cards .card2 .view a, div.cards .card3 .view a, div.cards .card4 .view a, div.cards .card5 .view a, div.cards .card6 .view a, div.cards .card7 .view a {
   padding-bottom: 10px;
   padding-left: 20px;
 }
 
-div.cards .card1 .agri-logo, div.cards .card2 .agri-logo, div.cards .card3 .agri-logo, div.cards .card4 .agri-logo, div.cards .card5 .agri-logo, div.cards .card6 .agri-logo, div.cards .card7 .agri-logo, div.cards .card8 .agri-logo {
+div.cards .card1 .agri-logo, div.cards .card2 .agri-logo, div.cards .card3 .agri-logo, div.cards .card4 .agri-logo, div.cards .card5 .agri-logo, div.cards .card6 .agri-logo, div.cards .card7 .agri-logo {
   padding-left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -278,16 +278,16 @@ div.cards .card1 .agri-logo, div.cards .card2 .agri-logo, div.cards .card3 .agri
   height: 30px;
 }
 
-div.cards .card1 .agri-logo img, div.cards .card2 .agri-logo img, div.cards .card3 .agri-logo img, div.cards .card4 .agri-logo img, div.cards .card5 .agri-logo img, div.cards .card6 .agri-logo img, div.cards .card7 .agri-logo img, div.cards .card8 .agri-logo img {
+div.cards .card1 .agri-logo img, div.cards .card2 .agri-logo img, div.cards .card3 .agri-logo img, div.cards .card4 .agri-logo img, div.cards .card5 .agri-logo img, div.cards .card6 .agri-logo img, div.cards .card7 .agri-logo img {
   padding: 10px;
 }
 
-div.cards .card1 .agri-logo h3, div.cards .card2 .agri-logo h3, div.cards .card3 .agri-logo h3, div.cards .card4 .agri-logo h3, div.cards .card5 .agri-logo h3, div.cards .card6 .agri-logo h3, div.cards .card7 .agri-logo h3, div.cards .card8 .agri-logo h3 {
+div.cards .card1 .agri-logo h3, div.cards .card2 .agri-logo h3, div.cards .card3 .agri-logo h3, div.cards .card4 .agri-logo h3, div.cards .card5 .agri-logo h3, div.cards .card6 .agri-logo h3, div.cards .card7 .agri-logo h3 {
   padding-top: 17px;
   font-weight: bold;
 }
 
-div.cards .card1 .card1-content, div.cards .card2 .card1-content, div.cards .card3 .card1-content, div.cards .card4 .card1-content, div.cards .card5 .card1-content, div.cards .card6 .card1-content, div.cards .card7 .card1-content, div.cards .card8 .card1-content {
+div.cards .card1 .card1-content, div.cards .card2 .card1-content, div.cards .card3 .card1-content, div.cards .card4 .card1-content, div.cards .card5 .card1-content, div.cards .card6 .card1-content, div.cards .card7 .card1-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -306,22 +306,141 @@ div.cards .card1 .card1-content, div.cards .card2 .card1-content, div.cards .car
   height: 400px;
 }
 
-div.cards .card1 .card1-content .content1, div.cards .card1 .card1-content .content2, div.cards .card1 .card1-content .content3, div.cards .card1 .card1-content .content4, div.cards .card2 .card1-content .content1, div.cards .card2 .card1-content .content2, div.cards .card2 .card1-content .content3, div.cards .card2 .card1-content .content4, div.cards .card3 .card1-content .content1, div.cards .card3 .card1-content .content2, div.cards .card3 .card1-content .content3, div.cards .card3 .card1-content .content4, div.cards .card4 .card1-content .content1, div.cards .card4 .card1-content .content2, div.cards .card4 .card1-content .content3, div.cards .card4 .card1-content .content4, div.cards .card5 .card1-content .content1, div.cards .card5 .card1-content .content2, div.cards .card5 .card1-content .content3, div.cards .card5 .card1-content .content4, div.cards .card6 .card1-content .content1, div.cards .card6 .card1-content .content2, div.cards .card6 .card1-content .content3, div.cards .card6 .card1-content .content4, div.cards .card7 .card1-content .content1, div.cards .card7 .card1-content .content2, div.cards .card7 .card1-content .content3, div.cards .card7 .card1-content .content4, div.cards .card8 .card1-content .content1, div.cards .card8 .card1-content .content2, div.cards .card8 .card1-content .content3, div.cards .card8 .card1-content .content4 {
+div.cards .card1 .card1-content .content1, div.cards .card1 .card1-content .content2, div.cards .card1 .card1-content .content3, div.cards .card1 .card1-content .content4, div.cards .card2 .card1-content .content1, div.cards .card2 .card1-content .content2, div.cards .card2 .card1-content .content3, div.cards .card2 .card1-content .content4, div.cards .card3 .card1-content .content1, div.cards .card3 .card1-content .content2, div.cards .card3 .card1-content .content3, div.cards .card3 .card1-content .content4, div.cards .card4 .card1-content .content1, div.cards .card4 .card1-content .content2, div.cards .card4 .card1-content .content3, div.cards .card4 .card1-content .content4, div.cards .card5 .card1-content .content1, div.cards .card5 .card1-content .content2, div.cards .card5 .card1-content .content3, div.cards .card5 .card1-content .content4, div.cards .card6 .card1-content .content1, div.cards .card6 .card1-content .content2, div.cards .card6 .card1-content .content3, div.cards .card6 .card1-content .content4, div.cards .card7 .card1-content .content1, div.cards .card7 .card1-content .content2, div.cards .card7 .card1-content .content3, div.cards .card7 .card1-content .content4 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100px;
           flex: 0 0 100px;
 }
 
-div.cards .card1 .card1-content .content1 img, div.cards .card1 .card1-content .content2 img, div.cards .card1 .card1-content .content3 img, div.cards .card1 .card1-content .content4 img, div.cards .card2 .card1-content .content1 img, div.cards .card2 .card1-content .content2 img, div.cards .card2 .card1-content .content3 img, div.cards .card2 .card1-content .content4 img, div.cards .card3 .card1-content .content1 img, div.cards .card3 .card1-content .content2 img, div.cards .card3 .card1-content .content3 img, div.cards .card3 .card1-content .content4 img, div.cards .card4 .card1-content .content1 img, div.cards .card4 .card1-content .content2 img, div.cards .card4 .card1-content .content3 img, div.cards .card4 .card1-content .content4 img, div.cards .card5 .card1-content .content1 img, div.cards .card5 .card1-content .content2 img, div.cards .card5 .card1-content .content3 img, div.cards .card5 .card1-content .content4 img, div.cards .card6 .card1-content .content1 img, div.cards .card6 .card1-content .content2 img, div.cards .card6 .card1-content .content3 img, div.cards .card6 .card1-content .content4 img, div.cards .card7 .card1-content .content1 img, div.cards .card7 .card1-content .content2 img, div.cards .card7 .card1-content .content3 img, div.cards .card7 .card1-content .content4 img, div.cards .card8 .card1-content .content1 img, div.cards .card8 .card1-content .content2 img, div.cards .card8 .card1-content .content3 img, div.cards .card8 .card1-content .content4 img {
+div.cards .card1 .card1-content .content1 img, div.cards .card1 .card1-content .content2 img, div.cards .card1 .card1-content .content3 img, div.cards .card1 .card1-content .content4 img, div.cards .card2 .card1-content .content1 img, div.cards .card2 .card1-content .content2 img, div.cards .card2 .card1-content .content3 img, div.cards .card2 .card1-content .content4 img, div.cards .card3 .card1-content .content1 img, div.cards .card3 .card1-content .content2 img, div.cards .card3 .card1-content .content3 img, div.cards .card3 .card1-content .content4 img, div.cards .card4 .card1-content .content1 img, div.cards .card4 .card1-content .content2 img, div.cards .card4 .card1-content .content3 img, div.cards .card4 .card1-content .content4 img, div.cards .card5 .card1-content .content1 img, div.cards .card5 .card1-content .content2 img, div.cards .card5 .card1-content .content3 img, div.cards .card5 .card1-content .content4 img, div.cards .card6 .card1-content .content1 img, div.cards .card6 .card1-content .content2 img, div.cards .card6 .card1-content .content3 img, div.cards .card6 .card1-content .content4 img, div.cards .card7 .card1-content .content1 img, div.cards .card7 .card1-content .content2 img, div.cards .card7 .card1-content .content3 img, div.cards .card7 .card1-content .content4 img {
   width: 130px;
   height: 130px;
 }
 
-div.cards .card1 .card1-content .content1 figcaption, div.cards .card1 .card1-content .content2 figcaption, div.cards .card1 .card1-content .content3 figcaption, div.cards .card1 .card1-content .content4 figcaption, div.cards .card2 .card1-content .content1 figcaption, div.cards .card2 .card1-content .content2 figcaption, div.cards .card2 .card1-content .content3 figcaption, div.cards .card2 .card1-content .content4 figcaption, div.cards .card3 .card1-content .content1 figcaption, div.cards .card3 .card1-content .content2 figcaption, div.cards .card3 .card1-content .content3 figcaption, div.cards .card3 .card1-content .content4 figcaption, div.cards .card4 .card1-content .content1 figcaption, div.cards .card4 .card1-content .content2 figcaption, div.cards .card4 .card1-content .content3 figcaption, div.cards .card4 .card1-content .content4 figcaption, div.cards .card5 .card1-content .content1 figcaption, div.cards .card5 .card1-content .content2 figcaption, div.cards .card5 .card1-content .content3 figcaption, div.cards .card5 .card1-content .content4 figcaption, div.cards .card6 .card1-content .content1 figcaption, div.cards .card6 .card1-content .content2 figcaption, div.cards .card6 .card1-content .content3 figcaption, div.cards .card6 .card1-content .content4 figcaption, div.cards .card7 .card1-content .content1 figcaption, div.cards .card7 .card1-content .content2 figcaption, div.cards .card7 .card1-content .content3 figcaption, div.cards .card7 .card1-content .content4 figcaption, div.cards .card8 .card1-content .content1 figcaption, div.cards .card8 .card1-content .content2 figcaption, div.cards .card8 .card1-content .content3 figcaption, div.cards .card8 .card1-content .content4 figcaption {
+div.cards .card1 .card1-content .content1 figcaption, div.cards .card1 .card1-content .content2 figcaption, div.cards .card1 .card1-content .content3 figcaption, div.cards .card1 .card1-content .content4 figcaption, div.cards .card2 .card1-content .content1 figcaption, div.cards .card2 .card1-content .content2 figcaption, div.cards .card2 .card1-content .content3 figcaption, div.cards .card2 .card1-content .content4 figcaption, div.cards .card3 .card1-content .content1 figcaption, div.cards .card3 .card1-content .content2 figcaption, div.cards .card3 .card1-content .content3 figcaption, div.cards .card3 .card1-content .content4 figcaption, div.cards .card4 .card1-content .content1 figcaption, div.cards .card4 .card1-content .content2 figcaption, div.cards .card4 .card1-content .content3 figcaption, div.cards .card4 .card1-content .content4 figcaption, div.cards .card5 .card1-content .content1 figcaption, div.cards .card5 .card1-content .content2 figcaption, div.cards .card5 .card1-content .content3 figcaption, div.cards .card5 .card1-content .content4 figcaption, div.cards .card6 .card1-content .content1 figcaption, div.cards .card6 .card1-content .content2 figcaption, div.cards .card6 .card1-content .content3 figcaption, div.cards .card6 .card1-content .content4 figcaption, div.cards .card7 .card1-content .content1 figcaption, div.cards .card7 .card1-content .content2 figcaption, div.cards .card7 .card1-content .content3 figcaption, div.cards .card7 .card1-content .content4 figcaption {
   size: 4px;
+}
+
+div.cards .card8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 300px;
+          flex: 0 0 300px;
+}
+
+div.cards .card8 form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  -webkit-box-shadow: 0 2px 2px 0 whitesmoke;
+          box-shadow: 0 2px 2px 0 whitesmoke;
+  height: 440px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  width: 300px;
+}
+
+div.cards .card8 form h1 {
+  padding-left: 10px;
+}
+
+div.cards .card8 form div.looking {
+  padding-left: 10px;
+}
+
+div.cards .card8 form div.looking input {
+  width: 250px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  height: 45px;
+  padding-left: 25px;
+  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
+  border: 1px solid grey;
+}
+
+div.cards .card8 form div.quantity, div.cards .card8 form .name, div.cards .card8 form .city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.cards .card8 form div.quantity .one input, div.cards .card8 form div.quantity .two input, div.cards .card8 form .name .one input, div.cards .card8 form .name .two input, div.cards .card8 form .city .one input, div.cards .card8 form .city .two input {
+  width: 120px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  height: 45px;
+  padding: 5px;
+  border: 1px solid grey;
+}
+
+div.cards .card8 form div.btn {
+  padding-left: 10px;
+}
+
+div.cards .card8 form div.btn button {
+  width: 250px;
+  color: white;
+  height: 45px;
+  background-color: #FF6A00;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  border: 2px solid #FF6A00;
+  border-radius: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
 }
 
 body {
   background-color: #EFEFEF;
+}
+
+button {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
