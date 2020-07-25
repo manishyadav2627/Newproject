@@ -1,0 +1,128 @@
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  height: 60px;
+  top: 0px;
+  width: 100%;
+  background-color: #173a67;
+  div.submit
+  { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 30px;
+
+    
+    input{
+width: 300px;
+height: 35px;
+padding-left: 15px;
+border: transparent;
+color: white;
+font-size: 15px;   
+
+
+}
+button.product{
+  width: 150px;
+  
+
+  margin-right: -6px;
+  height: 35px;
+  border: transparent;
+
+  align-items: center;
+  font-size: 12px;
+  i{
+    padding: 10px;
+  }
+}
+button.search{
+  width: 80px;
+  color: white;
+  margin-left: -6px;
+  height: 35px;
+  background-color: #FF6A00;
+  box-shadow: transparent;
+  border: transparent;
+  align-items: center;
+  font-size: 15px;   
+ 
+
+  i{
+    padding-right: 6px;
+    color: white;  }
+}
+  
+  }
+  button.sign{
+    width: 100px;
+    color: white;
+    height: 35px;
+    background-color: transparent;
+    box-shadow: transparent;
+    border: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;   
+  
+    i{
+      padding-right: 10px;
+      color: white; 
+      font-size: 23px;   
+
+     }
+  
+
+  }
+  button.download{
+    width: 150px;
+    color: white;
+    height: 35px;
+    background-color: transparent;
+    box-shadow: transparent;
+    border: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;   
+  
+    i{
+      padding-right: 10px;
+      color: white; 
+      font-size: 23px;   
+
+     }
+  
+
+  }
+  button.post{
+    width: 250px;
+    color: white;
+    height: 35px;
+    background-color: transparent;
+    box-shadow: transparent;
+    border: 2px solid #FF6A00;
+    border-radius: 30px;
+    align-items: center;
+    font-size: 15px;   
+   
+
+  }
+  button.menu{
+    color: white;
+    height: 35px;
+    background-color: transparent;
+    box-shadow: transparent;
+    border: transparent;
+    align-items: center;
+    font-size: 20px;   
+    
+  }
+}

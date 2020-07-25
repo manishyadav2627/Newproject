@@ -1,6 +1,203 @@
-body {
-  margin: 0;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
-  background-color: pink;
+  margin: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20px;
+  height: 60px;
+  top: 0px;
+  width: 100%;
+  background-color: #173a67;
+}
+
+header div.submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+header div.submit input {
+  width: 300px;
+  height: 35px;
+  padding-left: 15px;
+  border: transparent;
+  color: white;
+  font-size: 15px;
+}
+
+header div.submit button.product {
+  width: 150px;
+  margin-right: -6px;
+  height: 35px;
+  border: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+}
+
+header div.submit button.product i {
+  padding: 10px;
+}
+
+header div.submit button.search {
+  width: 80px;
+  color: white;
+  margin-left: -6px;
+  height: 35px;
+  background-color: #FF6A00;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  border: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+}
+
+header div.submit button.search i {
+  padding-right: 6px;
+  color: white;
+}
+
+header button.sign {
+  width: 100px;
+  color: white;
+  height: 35px;
+  background-color: transparent;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  border: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+}
+
+header button.sign i {
+  padding-right: 10px;
+  color: white;
+  font-size: 23px;
+}
+
+header button.download {
+  width: 150px;
+  color: white;
+  height: 35px;
+  background-color: transparent;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  border: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+}
+
+header button.download i {
+  padding-right: 10px;
+  color: white;
+  font-size: 23px;
+}
+
+header button.post {
+  width: 250px;
+  color: white;
+  height: 35px;
+  background-color: transparent;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  border: 2px solid #FF6A00;
+  border-radius: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+}
+
+header button.menu {
+  color: white;
+  height: 35px;
+  background-color: transparent;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  border: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+}
+
+div.submenu {
+  height: 40px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+div.submenu ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+div.submenu ul li, div.submenu ul li a {
+  text-decoration: none;
+  padding-top: 10px;
+  color: black;
+}
+
+div.submenu ul li i, div.submenu ul li a i {
+  padding-left: 10px;
+  color: grey;
+}
+
+body {
+  background-color: #EFEFEF;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,26 @@
+div.submenu{
+   
+    height: 40px;
+    width: 100%;
+    background-color: #FFFFFF;
+    
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        
+
+        align-items: center;
+        flex-direction: row;
+       li, li a{
+            text-decoration: none;
+            padding-top: 10px;
+color: black;
+i{
+    padding-left: 10px;
+    color: grey; 
+
+   }
+        }
+    }
+}
